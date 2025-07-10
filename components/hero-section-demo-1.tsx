@@ -1,8 +1,9 @@
 "use client";
 
+
 import { motion } from "motion/react";
 
-export default function home() {
+export default function HeroSectionOne() {
   return (
     <div className="relative mx-auto my-10 flex max-w-7xl flex-col items-center justify-center">
       <Navbar />
