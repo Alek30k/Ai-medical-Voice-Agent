@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "motion/react";
+import { FeatureBentoGrid } from "./_components/FeatureBentoGrid";
 
 export default function home() {
   return (
@@ -17,7 +18,7 @@ export default function home() {
       </div>
       <div className="px-4 py-10 md:py-20">
         <h1 className="relative z-10 mx-auto max-w-4xl text-center text-2xl font-bold text-slate-700 md:text-4xl lg:text-7xl dark:text-slate-300">
-          {"🧠 Transforma la atención médica con agentes de voz médicos de IA"
+          {"🧠 Transforma la atención médica con Agentes de Voz Médicos de IA"
             .split(" ")
             .map((word, index) => (
               <motion.span
@@ -68,9 +69,6 @@ export default function home() {
           <button className="w-60 transform rounded-lg bg-black px-6 py-2 font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-200">
             Empezar
           </button>
-          {/* <button className="w-60 transform rounded-lg border border-gray-300 bg-white px-6 py-2 font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-100 dark:border-gray-700 dark:bg-black dark:text-white dark:hover:bg-gray-900">
-            Contact Support
-          </button> */}
         </motion.div>
         <motion.div
           initial={{
@@ -98,6 +96,7 @@ export default function home() {
           </div>
         </motion.div>
       </div>
+      <FeatureBentoGrid />
     </div>
   );
 }
