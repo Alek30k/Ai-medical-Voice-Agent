@@ -1,5 +1,5 @@
-const Workspace = () => {
-  return <div className="">Workspace</div>;
+const Dashboard = () => {
+  return <div className="">Dashboard</div>;
 };
 
-export default Workspace;
+export default Dashboard;
