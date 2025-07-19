@@ -13,9 +13,11 @@ const HistoryList = () => {
           <Image
             src={"/medical-assistance.png"}
             alt="Vacio"
-            width={200}
-            height={200}
+            width={150}
+            height={150}
           />
+          <h2 className="">No hay consultas recientes</h2>
+          <p>Parece que aún no has consultado con ningún médico.</p>
         </div>
       ) : (
         <div className="">List</div>
