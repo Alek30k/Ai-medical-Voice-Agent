@@ -1,7 +1,7 @@
 import { AIDoctorAgents } from "@/shared/list";
 import DoctorAgentCard from "./DoctorAgentCard";
 
-const DoctorsAgentLisr = () => {
+const DoctorsAgentList = () => {
   return (
     <div className="mt-10">
       <h2 className="font-bold text-xl">Agente médico especialista en IA</h2>
@@ -9,7 +9,7 @@ const DoctorsAgentLisr = () => {
       <div className="">
         {AIDoctorAgents.map((doctor) => (
           <div key={doctor.id}>
-            <DoctorAgentCard />
+            <DoctorAgentCard doctorAgent={doctor} />
           </div>
         ))}
       </div>
@@ -17,4 +17,4 @@ const DoctorsAgentLisr = () => {
   );
 };
 
-export default DoctorsAgentLisr;
+export default DoctorsAgentList;

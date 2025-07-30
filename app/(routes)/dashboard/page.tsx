@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import HistoryList from "./_components/HistoryList";
-import DoctorsAgentLisr from "@/components/DoctorsAgentLisr";
+import DoctorsAgentList from "@/components/DoctorsAgentList";
 
 const Dashboard = () => {
   return (
@@ -10,7 +10,7 @@ const Dashboard = () => {
         <Button>+ Consultar con el doctor</Button>
       </div>
       <HistoryList />
-      <DoctorsAgentLisr />
+      <DoctorsAgentList />
     </div>
   );
 };
